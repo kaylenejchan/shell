@@ -37,7 +37,7 @@ mv rawdata ./data
 cd data 
 mv rawdata raw
 # 3. List the contents of the ./data/raw directory
-ls -R
+ls 
 # 4. Create the directory ./data/processed, 
 #    then create the following sub-directories within it: server_logs, user_logs, and event_logs
 mkdir processed
